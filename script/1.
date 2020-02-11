@@ -1,1 +1,7 @@
-
+#data read
+data=read.csv("C:\\Users\\EXCEL\\data_1.csv",header = T,sep = ";",fill = T)
+#### 
+w=as.numeric(Dados$wc)
+h=as.numeric(Dados$Pot)
+#  FITSOILWATER FUNCTION
+fitsoilwater (w,h)
