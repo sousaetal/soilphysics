@@ -7,3 +7,5 @@ h=as.numeric(Dados$Pot)
 fitsoilwater (w,h)
 # SOILWATER FUNCTION
 soilwater(x = c(10, 20, 40, 60, 80, 100, 250,500, 1000, 5000,15000), theta_R = 0.08356, theta_S = 0.33627, alpha = 0.03988, n = 1.55126)
+# SINDEX FUCTION
+Sindex(0.082943, 0.337467, 0.039558, 1.544481, xlim = c(0, 15000))
