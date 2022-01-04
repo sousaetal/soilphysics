@@ -1,0 +1,13 @@
+## SOIL PHYSICAL PACKAGE ##
+library(soilphysics)
+# r() 
+#
+x <- seq(log10(1), log10(15000), len=50)
+h <- 10^x
+y <- r(h=h)
+plot(x=h, y=y, log="yx", xlab="h (hPa)", yaxt='n', ylab="", ylim=c(0.1, 1500))
+ax <- c(0.1, 1, 10, 100, 1000, 1500)
+axis(2,at=ax, labels=ax)
+mtext("Pore radius"~ (mu*m), 2, line=2.5)
+#
+# End (not run)
