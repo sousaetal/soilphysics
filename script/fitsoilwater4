@@ -1,0 +1,20 @@
+## SOIL PHYSICAL PACKAGE ##
+library(soilphysics)
+#  fitsoilwater4() 
+#
+data(skp1994)
+#
+# Example 1
+ex1 <- with(skp1994,
+ fitsoilwater4(theta = W, psi = h, model = "Ross"))
+ex1
+summary(ex1)
+
+# Example 2
+ex2 <- with(skp1994,
+  fitsoilwater4(theta = W, psi = h, Bd = BD, model = "Silva"))
+ex2
+summary(ex2)
+
+
+# End (not run)
