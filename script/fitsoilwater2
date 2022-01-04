@@ -1,0 +1,8 @@
+## SOIL PHYSICAL PACKAGE ##
+library(soilphysics)
+#  fitsoilwater2() 
+w <- c(0.417, 0.354, 0.117, 0.048, 0.029, 0.017, 0.007, 0)
+pF <- 0:7
+fitsoilwater2(w, pF)
+
+# End (not run)
