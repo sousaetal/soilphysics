@@ -1,0 +1,8 @@
+## SOIL PHYSICAL PACKAGE ##
+library(soilphysics)
+# Sindex() 
+#
+# Dexter (2004, Table 1)
+#
+Sindex(0.082943, 0.337467, 0.039558, 1.544481, xlim = c(0, 15000))
+# End (not run)
